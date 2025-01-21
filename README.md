@@ -1,1 +1,12 @@
-# mobile-dev-review
+Approach                | Description                                                                                   | Pros                                                                                  | Cons                                                                | Common Tools/Frameworks
+----------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | --------------------------
+**Mobile Web Applications** | - Built using web technologies (HTML, CSS, JS)                                              | - Quick, cross-platform development<br>- No installation needed<br>- Uses existing web skills | - Limited offline capabilities<br>- Performance depends on connection<br>- Limited access to device features | - Standard web stack (HTML, CSS, JavaScript)
+**Native Applications** | - Built with OS-specific languages (Swift for iOS, Kotlin for Android)<br>- Packaged as .ipa (iOS) or .apk (Android) | - Fast, responsive<br>- Access to full device features<br>- Stronger offline support | - Separate codebases for each platform<br>- Different languages & tools<br>- Higher development cost | - Xcode (iOS), Android Studio, Swift, Kotlin<br>- (Older) Objective-C, Java
+**Cross-platform Hybrid** | - Built using web technologies, wrapped in a native web view (Cordova)                        | - Single codebase for both platforms<br>- Quick & cheaper development<br>- Familiar web tech | - May require plugins for native features<br>- Usually slower performance than native apps | - Cordova, Ionic, Adobe PhoneGap
+**Cross-platform Native** | - Built with frameworks that compile to native code<br>- Often use web-like development approaches (HTML, JS, CSS) or other high-level languages (C#/.NET) | - Single codebase for multiple platforms<br>- Better performance than hybrid<br>- Native UI/UX | - Still may need platform-specific tweaks<br>- Framework learning curve | - React Native, Flutter, Xamarin, NativeScript
+**Progressive Web Apps** | - Web apps with additional features (offline support, caching, “installable” on devices)       | - Work offline (to an extent)<br>- Faster load (caching)<br>- No need for app store distribution | - Limited access to device APIs<br>- Inconsistent support on iOS vs. Android | - Standard web stack + PWA enhancements (Service Workers, etc.)
+
+
+
+
+![image](https://github.com/user-attachments/assets/f3428635-0334-4b78-82f8-65908473e263)
